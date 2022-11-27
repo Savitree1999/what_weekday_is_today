@@ -1,0 +1,106 @@
+@charset "UTF-8";
+body {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #000;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    width: fit-content;
+    padding: 1vw 2vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1000px) {
+    .container {
+        display: inline-block;
+    }
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 4vw;
+    color: #ecb807;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 0.4rem;
+    margin: 1rem;
+    color: #fff;
+}
+
+input{
+    line-height: 2rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 2rem;
+    margin-bottom: 0.8vw;    
+}
+
+button {
+    color: #fff;
+    background-color: #ecb807;
+    font-size: 1.5rem;
+    border-radius: 0.25rem;
+    padding: 1rem 2.5rem;
+    margin: 1rem ;
+    border-width: 0px;
+}
+
+button:hover {
+    background-color: #f5c322bb
+}
+
+.card {
+    background-color: #fff;
+    border: #fff;
+    border-style: solid;
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+
+.card_color {
+    display: inline-block;
+    background-color: #ced4da;
+    border: #fff;
+    border-style: solid;
+    width: 320px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #fff;
+}
+
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    input {
+        line-height: 3rem;
+        font-size: 3rem;
+    }
+
+    button {
+        font-size: 2.5rem;
+        padding: 1.25rem 3rem;
+    }
+
+    .card{
+        font-size: 2.5rem;
+    }
+
+    .card_color {
+        width: 400px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
